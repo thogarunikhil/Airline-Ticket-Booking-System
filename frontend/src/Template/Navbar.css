@@ -1,0 +1,152 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcd9f7;
+    height: 85px;
+}
+@media screen and (max-width: 600px) {
+    .Navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #dcd9f7;
+        height: 20%;
+        font-size: 0.8rem;
+    }
+     .title-login:hover {
+            background-color: rgb(110, 34, 224);
+            color: white;
+            border-radius: 6px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        background-color: #dcd9f7;
+        height: 20%;
+        font-size: 0.8rem;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcd9f7;
+    height: 20%;
+    font-size: 0.8rem;
+}
+
+
+.title{
+    margin-right: 10px;
+    align-self: center;
+}
+
+.header{
+    margin-bottom: 0;
+    font-family: 'fantasy';
+}
+
+.title--quote{
+    font-family: cursive;
+    font-size: 18px;
+    color: rgb(110, 34, 224);
+    margin-right: 5px;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.title-login{
+    background-color: #dcd9f7;
+    border: none;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Papyrus', fantasy;
+    font-weight: bold;
+}
+.title-login:hover{
+    background-color: rgb(110, 34, 224);
+    color: white;
+    border-radius: 6px;
+}
+
+.logo--image{
+    width: 80px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.logout-header{
+    margin-bottom: 0;
+    font-family: 'fantasy';
+    font-size: 20px;
+    color:#162938;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 100;
+    position: relative;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 4%;
+}
+
+.logout-options{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding-left: 13%;
+    padding-right: 40%;
+    gap: 20%;
+}
+
+.logout-yes{
+    background: fixed;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 18px;
+    font-family: 'fantasy';
+    font-weight: bold;
+}
+
+.logout-no{
+    background: fixed;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'fantasy';
+    font-weight: bold;
+}
+
+.logout-yes:hover{
+    background-color: rgb(110, 34, 224);
+    color: white;
+    border-radius: 6px;
+}
+
+.logout-no:hover{
+    background-color: rgb(110, 34, 224);
+    color: white;
+    border-radius: 6px;
+}
